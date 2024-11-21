@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persistent Preferences</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Preferences Panel Section -->
+  <section class="preferences-panel">
+    <div class="container mt-4">
+      <h1 class="text-center">Customize Your Experience</h1>
+      
+      <!-- Theme Selection -->
+      <div class="form-group">
+        <label for="theme-selector">Choose Your Theme:</label>
+        <select id="theme-selector" class="form-select">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="purple">Purple</option> <!-- Updated theme -->
+        </select>
+      </div>
+
+      <!-- List Style Selection -->
+      <div class="form-group mt-3">
+        <label for="list-style-selector">Choose List Style:</label>
+        <select id="list-style-selector" class="form-select">
+          <option value="none">None</option>
+          <option value="bullets">Bullets</option>
+          <option value="numbers">Numbers</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- List Section -->
+  <section class="list-section mt-4">
+    <div class="container">
+      <h2>Your Dynamic List</h2>
+      <ul id="dynamic-list" class="list-unstyled">
+        <!-- List items will be dynamically inserted here -->
+      </ul>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

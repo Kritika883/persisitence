@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .preferences-panel {
+    margin-bottom: 20px;
+  }
+  
+  .list-section {
+    margin-top: 20px;
+  }
+  
+  /* Light theme */
+  body.light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Dark theme */
+  body.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Purple theme (Replaces blue theme) */
+  body.purple {
+    background-color: #6a0dad;
+    color: #fff;
+  }
+  
+  /* List Styles */
+  #dynamic-list.none {
+    list-style-type: none;
+  }
+  
+  #dynamic-list.bullets {
+    list-style-type: disc;
+  }
+  
+  #dynamic-list.numbers {
+    list-style-type: decimal;
+  }
+  
